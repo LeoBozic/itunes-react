@@ -41,9 +41,9 @@ function App() {
                 {podatak.artistName} - {podatak.trackName}
               </li>
             ))}
+            {podaci.resultCount === 0 && <p>Nema rezultata</p>}
           </div>
         )}
-        {podaci.resultCount === 0 && <p>Nema rezultata</p>}
       </div>
     </div>
   );
